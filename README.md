@@ -46,6 +46,9 @@ Simply double-click the .bat files in the project directory.
 
 ```scan_and_save.bat```: Prompts for a URL and a filename, then saves the report.
 
+![demo](https://github.com/user-attachments/assets/5f85ea2e-5c7d-4aba-82ab-327ab097b54e)
+
+
 🇹🇷 Türkçe
 Web sunucularındaki yaygın güvenlik yapılandırma hatalarını ve hassas veri sızıntılarını hızla tespit etmek için tasarlanmış hafif ve hızlı bir Python aracı.
 
@@ -91,4 +94,7 @@ Proje klasöründeki ```bat``` dosyalarına çift tıklamanız yeterlidir.
 ```scan.bat```: URL sorar ve hızlı bir tarama yapar.
 
 ```scan_and_save.bat```: URL ve dosya adı sorar, ardından raporu kaydeder.
+
+![demo](https://github.com/user-attachments/assets/fc5c2d04-0376-4219-a711-abcea6f05f92)
+
 
