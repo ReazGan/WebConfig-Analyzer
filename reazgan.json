@@ -1,0 +1,36 @@
+{
+    "target": "https://baranayaztas.com.tr/",
+    "scan_date": "2025-08-08T22:40:15.798539",
+    "summary": {
+        "total_findings": 4,
+        "high": 0,
+        "medium": 4,
+        "low": 0
+    },
+    "findings": [
+        {
+            "type": "missing_header",
+            "severity": "medium",
+            "detail": "`Strict-Transport-Security` başlığı eksik.",
+            "description": "Tarayıcıların siteyle sadece HTTPS üzerinden iletişim kurmasını zorunlu kılar."
+        },
+        {
+            "type": "missing_header",
+            "severity": "medium",
+            "detail": "`Content-Security-Policy` başlığı eksik.",
+            "description": "XSS gibi saldırıları önlemek için hangi kaynakların yüklenebileceğini kısıtlar."
+        },
+        {
+            "type": "missing_header",
+            "severity": "medium",
+            "detail": "`X-Frame-Options` başlığı eksik.",
+            "description": "Sitenin başka bir site içinde `<iframe>` ile açılmasını engelleyerek 'clickjacking' saldırılarını önler."
+        },
+        {
+            "type": "missing_header",
+            "severity": "medium",
+            "detail": "`X-Content-Type-Options` başlığı eksik.",
+            "description": "Tarayıcının dosya tiplerini 'koklamasını' (MIME-sniffing) engeller."
+        }
+    ]
+}

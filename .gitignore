@@ -1,0 +1,25 @@
+# Python'un derlenmiş geçici dosyaları
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Sanal Ortam (Virtual Environment) klasörleri
+.venv
+venv
+env
+
+# IDE ve Kod Editörü ayar dosyaları
+.idea/
+.vscode/
+
+# İşletim Sistemi dosyaları (Windows)
+Thumbs.db
+desktop.ini
+
+# *.json
+
+# Paketleme ve dağıtım klasörleri
+build/
+dist/
+*.egg-info/
